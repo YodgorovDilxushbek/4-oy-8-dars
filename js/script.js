@@ -291,11 +291,20 @@
 // } while (g >= 1);
 
 // 3-misol
-// let num =+prompt(`sonni kiriting`)
-//     while () {
+// let num = +prompt(" son kiriting: ");
 
-//     }
-//     console.log(num);
+// while (num <= 0 ) {
+//     num =+prompt(" musbat son kiriting: ");
+// }
+// let num = +prompt("Musbat son kiriting: ");
+
+// console.log( num);
+
+// do {
+//     num =+prompt(" musbat son kiriting: ");
+
+// } while (num <= 0 );
+// console.log(num);
 
 // 4-misol
 // let i=1;
@@ -351,35 +360,136 @@
 
 // 6-misol
 
-// 6-misolga uncha tushunmadim
+// let num =+prompt(`sonni kiriting`)
+// while (num>=1) {
+//         console.log(Math.floor(num));
+//         num=num/2;
+// }
+
 // let num =+prompt(`sonni kiriting`)
 
-// while (num >= 1) {
-//         num /= 2
-// }
-// console.log(num);
+// do {
+//         console.log(Math.floor(num));
+//         num=num/2;
+// } while (num>=1);
 
 // 7-misol
-// let num =+prompt(`sonni kiriting`)
-// let sum = 1;
-// while (num<=1) {
-//         if (num%2 ==1) {
-//                 sum = sum +=num;
-//         }else{
-//                 console.log(`toq son yoq`);
-                
-//         }
-        
-// num ++;
-        
+// let num = +prompt(`sonni kiriting`);
+// let i = 0;
+// while (i < num.length) {
+//   let sum = num[i];
+//   if (sum % 2 !== 0) {
+//     console.log(sum);
+//   }
+//   i++;
 // }
 
+// let num = prompt("Son kiriting: ");
 
+// let i = 0;
+
+// while (i < num.length) {
+//     let sum = (num[i]);
+//     if (sum % 2 !== 0) {
+//         console.log(sum);
+//     }
+
+//     i++;
+// }
+
+// let num = prompt("Son kiriting: ");
+// let i = 0;
+
+// do {
+//         let sum = (num[i]);
+//             if (sum % 2 !== 0) {
+//                 console.log(sum);
+//             }
+
+//             i++;
+// } while (i < num.length);
 // 8-misol
 
-let num1 =+prompt(`sonni kiriitng`)
-let num2 =+prompt(`sonni kiriitng`)
-while (num1>=num2||num1 <=num2) {
-        num1++;
+// let start = +prompt("Boshlangich sonni kiriting: ");
+// let end =+prompt("Yakuniy sonni kiriting: ");
 
-}
+// let i = start;
+// while (i <= end) {
+//     if (i % 3 === 0) {
+//         console.log(i);
+//     }
+//     i++;
+// }
+
+// do while
+// let start = +prompt("Boshlang'ich sonni kiriting: ");
+// let end =+prompt("Yakuniy sonni kiriting: ");
+
+// let i = start;
+
+// do {
+//         if (i % 3 === 0) {
+//                         console.log(i);
+//                     }
+//                     i++;
+// } while (i <= end);
+// 9-misol
+
+// let num = prompt("Son kirit ");
+// let number = "";
+
+// let i = num.length - 1;
+
+// while (i >= 0) {
+//     number += num[i];
+//     i--;
+// }
+
+// console.log(number);
+
+// let num = prompt("Son kirit ");
+// let number = "";
+
+// let i = num.length - 1;
+// do {
+//   number += num[i];
+//   i--;
+// } while (i >= 0);
+// console.log(number);
+
+// 10-misol
+// let number = +prompt("son kiriting");
+
+// let sum = 0;
+// let counter;
+
+// while (number > 0) {
+//     counter = number % 10;
+//     sum *= counter;
+//     number = Math.floor(number / 10);
+// }
+
+// console.log( sum);
+
+// let num = prompt("Son kiriting: ");
+// let sum = 1;
+
+// let i = 0;
+
+// while (i < num.length) {
+//   let counter = num[i];
+//   sum *= counter;
+//   i++;
+// }
+// console.log(sum);
+
+let num = prompt("Son kiriting: ");
+let sum = 1;
+
+let i = 0;
+do {
+  let counter = num[i];
+  sum *= counter;
+  i++;
+} while (i < num.length);
+console.log(sum);
